@@ -104,6 +104,12 @@ top: 0;
 }
 
 #four {
+    background-color: black;
+    height: 500px;
+    padding: 135px 35px 0px 35px;
+}
+
+#five {
   height: 100px;
   padding: 35px 35px 35px 35px;
   display: flex;
