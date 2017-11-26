@@ -98,14 +98,14 @@ top: 0;
 }
 
 #three {
-    background-color: lightgreen;
+    background-color: white;
     height: 500px;
     padding: 135px 35px 0px 35px;
 }
 
 #four {
     background-color: black;
-    height: 500px;
+    height: 750px;
     padding: 135px 35px 0px 35px;
 }
 
@@ -131,7 +131,49 @@ top: 0;
   font-size: 10px;
 }
 
+figure {
+  width: 200px;
+  background: #aaa;
+  border: .01px solid #999;
+  overflow: hidden;
+}
 
+figure img {
+  width: 100%;
+  height: 200px;
+  background: #eee;
+  margin-bottom: -4em;
+  display: block;
+}
+
+figcaption {
+  box-sizing: border-box;
+  height: 4em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0.1;
+  transition: all .5s;
+}
+
+#my-class {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: 0.6;
+}
+
+
+
+/*** THIS IS THE BREAKPOINT ***/
 
 @media screen and (min-width: 600px) {
     .topnav a:not(:first-child) {
@@ -141,5 +183,45 @@ top: 0;
     #icon {
         display: none;
     }
+
+figure {
+  width: 300px;
+  background: #aaa;
+  border: .01px solid #999;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  height: 300px;
+  background: #eee;
+  margin-bottom: -4em;
+  display: block;
+}
+
+figcaption {
+  box-sizing: border-box;
+  height: 4em;
+  line-height: 1.2em;
+  padding: .40em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0.1;
+  transition: all .5s;
+}
+
+#my-class {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: 0.8;
+}
 
 }
