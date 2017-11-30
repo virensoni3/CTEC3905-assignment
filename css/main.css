@@ -15,7 +15,8 @@ p {
 h1 {
   font-family: fffregular;
   font-size: 44px;
-  margin-left: 20px;
+  margin-left: 5px;
+  text-align: center;
 }
 
 h2 {
@@ -195,20 +196,20 @@ figure img {
   width: 100%;
   height: 300px;
   background: #eee;
-  margin-bottom: -4em;
+  margin-bottom: -19em;
   display: block;
 }
 
 figcaption {
   box-sizing: border-box;
-  height: 4em;
-  line-height: 1.2em;
+  height: 19em;
+  line-height: 15em;
   padding: .40em;
-  transform: translateY(4em);
-  background: #fff;
+  transform: translateY(19em);
+  background: white;
   /* background: rgba( 255, 255, 255, 0 ); */
-  opacity: 0.1;
-  transition: all .5s;
+  opacity: 0.9;
+  transition: all .65s;
 }
 
 #my-class {
@@ -216,6 +217,7 @@ figcaption {
   justify-content: space-around;
   flex-wrap: wrap;
   width: 800px;
+  margin-left: 200px;
 }
 
 figure:hover figcaption {
