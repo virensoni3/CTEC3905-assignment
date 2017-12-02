@@ -104,7 +104,7 @@ top: 0;
 
 #four {
     background-color: black;
-    height: 750px;
+    height: 1000px;
     padding: 135px 35px 0px 35px;
 }
 
@@ -215,6 +215,12 @@ figcaption {
   flex-wrap: wrap;
   width: 800px;
   margin-left: 200px;
+}
+
+#four {
+    background-color: black;
+    height: 750px;
+    padding: 135px 35px 0px 35px;
 }
 
 figure:hover figcaption {
