@@ -10,6 +10,8 @@ html {
 
 p {
     font-family: futura;
+    font-size: 20px;
+    word-spacing: 4px;
 }
 
 h1 {
@@ -23,6 +25,19 @@ h2 {
   font-family: futura;
   font-size: 32px;
   text-align: center;  
+}
+
+h3 {
+  font-family: futura;
+  font-size: 18px;
+  text-align: center;  
+}
+
+h4 {
+  font-family: fffregular;
+  font-size: 44px;
+  margin-left: 5px;
+  text-align: center;
 }
 
 @font-face {
@@ -141,16 +156,16 @@ figure img {
   width: 100%;
   height: 200px;
   background: #eee;
-  margin-bottom: -4em;
+  margin-bottom: -13em;
   display: block;
 }
 
 figcaption {
   box-sizing: border-box;
-  height: 4em;
+  height: 13em;
   line-height: 1.2em;
   padding: .25em;
-  transform: translateY(4em);
+  transform: translateY(13em);
   background: #fff;
   opacity: 0.1;
   transition: all .5s;
@@ -171,8 +186,7 @@ figure:hover figcaption {
 
 
 
-/*** THIS IS THE BREAKPOINT ***/
-
+/*** THIS IS THE FIRST BREAKPOINT ***/
 @media screen and (min-width: 600px) {
     .topnav a:not(:first-child) {
         display: block;
@@ -213,20 +227,37 @@ figcaption {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 500px;
+  margin-left: 100px;
+}
+
+#four {
+    background-color: black;
+    height: 1450px;
+    padding: 135px 35px 0px 35px;
+}
+
+figure:hover figcaption {
+  transform: translateY(0em);
+  opacity: 0.8;
+}
+
+
+/*** THIS IS THE SECOND BREAKPOINT ***/
+@media screen and (min-width: 950px) {
+
+#my-class {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   width: 800px;
   margin-left: 200px;
 }
 
 #four {
     background-color: black;
-    height: 750px;
+    height: 800px;
     padding: 135px 35px 0px 35px;
-}
-
-figure:hover figcaption {
-  transform: translateY(0em);
-  /* background: rgba( 255, 255, 255, .78 ); */
-  opacity: 0.8;
 }
 
 }
