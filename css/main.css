@@ -99,10 +99,10 @@ top: 0;
 .topnav a {
   transition: 0.6s ease;
   background: black;
-  color: #ffffff;
+  color: white;
   font-size: 18px;
   text-decoration: none;
-  border-bottom: 3px solid #333;
+  border-bottom: 3px solid black;
   padding: 10px 10px;
   margin: 0 20px;
 }
@@ -157,6 +157,53 @@ top: 0;
   font-family: futura;
   font-size: 10px;
 }
+
+#arrow a {
+  padding-top: 70px;
+  position: absolute;
+}
+
+#arrow a span {
+  width: 36px;
+  height: 36px;
+  position: absolute;
+  margin: 425px 0px 0px 625px;
+  padding: 0 auto;
+  border-left: 1.4px solid #fff;
+  border-bottom: 1.4px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: arr05 1.7s infinite;
+  animation: arr05 1.7s infinite;
+}
+@-webkit-keyframes arr05 {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: rotate(-45deg) translate(-22px, 22px);
+    opacity: 0;
+  }
+}
+@keyframes arr05 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(-45deg) translate(-22px, 22px);
+    opacity: 0;
+  }
+}
+
+
 
 figure {
   width: 200px;
