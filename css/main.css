@@ -10,9 +10,9 @@ html {
 }
 
 p {
-    font-family: futura;
-    font-size: 20px;
-    word-spacing: 4px;
+  font-family: futura;
+  font-size: 20px;
+  word-spacing: 4px;
 }
 
 header {
@@ -120,8 +120,8 @@ top: 0;
 }
 
 #two {
-    background-image: url("aston.jpg");
-    height: 650px;
+  background-image: url("aston.jpg");
+  height: 650px;
 }
 
 #three {
@@ -159,16 +159,17 @@ top: 0;
 }
 
 #arrow a {
-  padding-top: 70px;
-  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 #arrow a span {
   width: 36px;
   height: 36px;
   position: absolute;
-  margin: 425px 0px 0px 625px;
-  padding: 0 auto;
+  margin-top: 500px;
   border-left: 1.4px solid #fff;
   border-bottom: 1.4px solid #fff;
   -webkit-transform: rotate(-45deg);
