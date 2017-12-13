@@ -11,8 +11,9 @@ html {
 
 p {
   font-family: futura;
-  font-size: 20px;
+  font-size: 14px;
   word-spacing: 4px;
+  padding-bottom: 8px;
 }
 
 header {
@@ -127,7 +128,7 @@ top: 0;
 
 #three {
     background-color: white;
-    height: 500px;
+    height: 425px;
     padding: 135px 35px 0px 35px;
 }
 
@@ -142,21 +143,20 @@ top: 0;
   padding: 35px 35px 35px 35px;
   display: flex;
   justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 150px;
+  margin: 0 auto;
 }
 
-#cont1 {
-  font-family: futura;
-  font-size: 10px;
+#five a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
 }
 
-#cont2 {
-  font-family: futura;
-  font-size: 10px;
-}
-
-#cont3 {
-  font-family: futura;
-  font-size: 10px;
+#five a:hover {
+  text-decoration: underline;
 }
 
 #arrow a {
@@ -241,6 +241,16 @@ figcaption {
   margin: 0 auto;
 }
 
+.footlink {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: futura;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
 figure:hover figcaption {
   transform: translateY(0em);
   /* background: rgba( 255, 255, 255, .78 ); */
@@ -285,6 +295,13 @@ figcaption {
   transition: all .65s;
 }
 
+p {
+  font-family: futura;
+  font-size: 20px;
+  word-spacing: 4px;
+  padding-bottom: 10px;
+}
+
 #my-class {
   display: flex;
   justify-content: space-around;
@@ -297,6 +314,14 @@ figcaption {
     background-color: black;
     height: 1450px;
     padding: 135px 35px 0px 35px;
+}
+
+#five {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 250px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -325,18 +350,15 @@ figure:hover figcaption {
 }
 
 #cont1 {
-  font-family: futura;
-  font-size: 13px;
+  width: 200px;
 }
 
 #cont2 {
-  font-family: futura;
-  font-size: 13px;
+  width: 200px;
 }
 
 #cont3 {
-  font-family: futura;
-  font-size: 13px;
+  width: 200px;
 }
 
 
@@ -351,10 +373,25 @@ figure:hover figcaption {
   margin: 0 auto;
 }
 
+#three {
+    background-color: white;
+    height: 475px;
+    padding: 135px 35px 0px 35px;
+}
+
 #four {
     background-color: black;
     height: 800px;
     padding: 135px 35px 0px 35px;
+}
+
+#five {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 975px;
+  height: 150px;
+  margin: 0 auto;
 }
 
 h4 {
@@ -362,6 +399,16 @@ h4 {
   font-size: 44px;
   margin-left: 5px;
   text-align: center;
+}
+
+.footlink {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: futura;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
 }
 
 
