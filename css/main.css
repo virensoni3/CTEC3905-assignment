@@ -123,7 +123,8 @@ top: 0;
 
 #two {
   background-image: url("aston.jpg");
-  height: 650px;
+  height: 100%;
+  width: 100%;
 }
 
 #three {
