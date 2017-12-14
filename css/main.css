@@ -123,7 +123,7 @@ top: 0;
 
 #two {
   background-image: url("aston.jpg");
-  height: 105%;
+  height: 650px;
   width: 100%;
   background-size: cover;
 }
@@ -173,8 +173,8 @@ top: 0;
   height: 36px;
   position: absolute;
   margin-top: 500px;
-  border-left: 1.4px solid #fff;
-  border-bottom: 1.4px solid #fff;
+  border-left: 1.6px solid #fff;
+  border-bottom: 1.6px solid #fff;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   -webkit-animation: arr05 1.7s infinite;
