@@ -139,7 +139,7 @@ top: 0;
 }
 
 #five {
-  height: 100px;
+  height: 330px;
   padding: 35px 35px 35px 35px;
   display: flex;
   justify-content: space-around;
@@ -249,6 +249,13 @@ figcaption {
   font-size: 14px;
   text-decoration: none;
   color: black;
+}
+
+#map {
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
 }
 
 figure:hover figcaption {
@@ -410,7 +417,5 @@ h4 {
   text-decoration: none;
   color: black;
 }
-
-
 
 }
