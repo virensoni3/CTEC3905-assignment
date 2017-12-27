@@ -70,7 +70,7 @@ This is a website which shows pictures of supercars and also includes some infor
 
 ## References
 
-
+- This is the link that I used for making the resizable menu: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 
 
 
