@@ -89,7 +89,13 @@ This is a website which shows pictures of supercars and also includes some infor
 
 ## Wireframe sketches
 
+This is how the website would look on mobile
+
 ![mobile](images/mobile.png)
+
+This is how the website would look on desktop/laptop
+
+![desktop](images/desktop.png)
 
 ## References
 
