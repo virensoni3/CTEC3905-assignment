@@ -56,7 +56,7 @@ This is a website which shows pictures of supercars and also includes some infor
 
 ### User Interface
 
-- Moreover, the feedback was that good colour combinations were used and everything was well layed out. The background image in the homepage was really nice.
+- Moreover, the feedback was that good colour combinations were used and everything was well layed out. The background image in the homepage was really nice and went well with the rest of the website.
 
 - The text seemed easy to read in both mobile and desktop size. Also, the font chosen was nice and went well with the theme of the website.
 
@@ -65,6 +65,29 @@ This is a website which shows pictures of supercars and also includes some infor
 - The website worked fine on a mobile phone, a tabled and on a desktop. The images and text resized well.
 
 - Everyone liked the fact that all the information was on one page. Thus the idea of a single page web app made sense.
+
+
+## Comments
+
+- A lot of people liked the quality of the images that I used in the website.
+
+- The way the images resized was also appreciated and went well with the black background.
+
+- A lot of people really liked the sliding text when a user hovered on the images.
+
+
+## Problems and solutions 
+
+- Originally I had a different background image on the homepage however I had to change it because it was not big enough for a large screen desktop.
+
+- When I was doing the animated arrow, I decided to make the arrow thicker so it was more visible.
+
+- When I had the images of the 4 cars, I needed to decide how the pictures would be displayed on various screen resizes. Thus on a laptop or large screen the images would be displayed 2 by 2 and on a mobile it would be displayed in one column with 4 images.
+
+- Another problem that I had is that the background image was not resizing. However I changed the background-size and background-attachment properties and that was resolved.
+
+
+## Wireframe sketches
 
 
 
