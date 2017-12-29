@@ -1,12 +1,10 @@
+/* Mobile first */
 html, body {
 	width: 100%;
 	height: 100%;
 	margin-left: 0;
+  font-family: "helvetica neue", "sans-serif";
   scroll-behavior: smooth;
-}
-
-html {
-	font-family: "helvetica neue", "sans-serif";
 }
 
 p {
@@ -23,6 +21,7 @@ header {
   z-index: 10;
 }
 
+/* This is the main heading in the homepage */
 h1 {
   font-family: fffregular;
   font-size: 30px;
@@ -47,6 +46,7 @@ h3 {
   text-align: center;  
 }
 
+/* This styles the text when the user hovers over the images */
 h4 {
   font-family: fffregular;
   font-size: 24px;
@@ -55,6 +55,7 @@ h4 {
   margin-top: 100px;
 }
 
+/* The two fonts below are the custom fonts that I have used */
 @font-face {
   font-family: 'futura';
   src: url('Futura.ttf');
@@ -65,8 +66,11 @@ h4 {
   src: url('fffregular.ttf');
 }
 
-/* -------- change the variable name .topnav to .nav -------- */
-
+/* topnav is the resizable menu */
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
 .topnav a:not(:first-child) {
   display: none;
 }
@@ -74,30 +78,19 @@ h4 {
   float: right;
   display: block;
 }
-
 .topnav.responsive {
 	position: relative;
 }
-
 .topnav.responsive a.icon {
-position: absolute;
-right: 0;
-top: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
-
 .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: center;
+  float: none;
+  display: block;
+  text-align: center;
 }
-
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: black;
-    overflow: hidden;
-}
-
-/* The links in the navigation bar */
 .topnav a {
   transition: 0.6s ease;
   background: black;
@@ -108,19 +101,15 @@ top: 0;
   padding: 10px 10px;
   margin: 0 20px;
 }
-
-
-/* Change the color of links on hover */
 .topnav a:hover {  
   border-bottom: 3px solid #ffffff;
 }
-
-/* Add an active class to highlight the current page */
 .active {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4CAF50;
+  color: white;
 }
 
+/* This is the background image that I have used in the homepage of the website */
 #two {
   background-image: url("aston.jpg");
   height: 650px;
@@ -130,15 +119,15 @@ top: 0;
 }
 
 #three {
-    background-color: white;
-    height: 425px;
-    padding: 135px 35px 0px 35px;
+  background-color: white;
+  height: 425px;
+  padding: 135px 35px 0px 35px;
 }
 
 #four {
-    background-color: black;
-    height: 1000px;
-    padding: 135px 35px 0px 35px;
+  background-color: black;
+  height: 1000px;
+  padding: 135px 35px 0px 35px;
 }
 
 #five {
@@ -162,6 +151,7 @@ top: 0;
   text-decoration: underline;
 }
 
+/* This is the animated arrow which has being made using the keyframes animation */
 #arrow a {
   display: flex;
   justify-content: space-around;
@@ -207,8 +197,6 @@ top: 0;
     opacity: 0;
   }
 }
-
-
 
 figure {
   width: 200px;
@@ -269,15 +257,15 @@ figure:hover figcaption {
 
 
 
-/*** THIS IS THE FIRST BREAKPOINT ***/
+/*** THIS IS THE FIRST BREAKPOINT for tablets ***/
 @media screen and (min-width: 600px) {
-    .topnav a:not(:first-child) {
-        display: block;
-        float: right;
+  .topnav a:not(:first-child) {
+    display: block;
+    float: right;
     }
-    #icon {
+      #icon {
         display: none;
-    }
+      }
 
 figure {
   width: 300px;
@@ -321,9 +309,9 @@ p {
 }
 
 #four {
-    background-color: black;
-    height: 1450px;
-    padding: 135px 35px 0px 35px;
+  background-color: black;
+  height: 1450px;
+  padding: 135px 35px 0px 35px;
 }
 
 #five {
@@ -332,8 +320,8 @@ p {
   flex-wrap: wrap;
   width: 250px;
   margin: 0 auto;
-  }
 }
+
 
 h1 {
   font-family: fffregular;
@@ -372,8 +360,7 @@ figure:hover figcaption {
   width: 200px;
 }
 
-
-/*** THIS IS THE SECOND BREAKPOINT ***/
+/*** THIS IS THE SECOND BREAKPOINT for desktops ***/
 @media screen and (min-width: 950px) {
 
 #my-class {
@@ -385,15 +372,15 @@ figure:hover figcaption {
 }
 
 #three {
-    background-color: white;
-    height: 475px;
-    padding: 135px 35px 0px 35px;
+  background-color: white;
+  height: 475px;
+  padding: 135px 35px 0px 35px;
 }
 
 #four {
-    background-color: black;
-    height: 800px;
-    padding: 135px 35px 0px 35px;
+  background-color: black;
+  height: 800px;
+  padding: 135px 35px 0px 35px;
 }
 
 #five {

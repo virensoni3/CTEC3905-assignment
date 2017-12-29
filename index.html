@@ -1,97 +1,101 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Supercars</title>
-<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Supercars</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  
 
-<header>
-  <a href="#two"><h1>Supercars</h1></a>
-    <nav class="topnav" id="myTopnav">
-      <a id="icon" class="icon">&#9776;</a>
-      <a href="#five"><h3>Contact</h3></a>
-      <a href="#four"><h3>Gallery</h3></a>
-      <a href="#three"><h3>About</h3></a>
-    </nav>
-</header>
+  <body>
+    <!-- This is the header which contains the heading and the menu -->
+    <header>
+      <a href="#two"><h1>Supercars</h1></a>
+        <nav class="topnav" id="myTopnav">
+          <a id="icon" class="icon">&#9776;</a>
+          <a href="#five"><h3>Contact</h3></a>
+          <a href="#four"><h3>Gallery</h3></a>
+          <a href="#three"><h3>About</h3></a>
+        </nav>
+    </header>
 
+    <!-- This has the animated arrow -->
+    <section id="two">
+      <section id="arrow" class="animated arrow">
+        <a href="#three"><span></span></a>
+      </section>
+    </section>
 
-<section id="two">
-  <section id="arrow" class="animated arrow">
-    <a href="#three"><span></span></a>
-  </section>
-</section>
+    <!-- This is the about me section which contains the content -->
+    <section id="three">
+      <h2>ABOUT ME</h2>
+      <p>Hello! My name is Viren and I study Computer Science. I am a third year computer science student and I enjoy it alot.     For my final year project, I am making a Bed and Breakfast booking system where the user will be able to book some rooms and it will also have a feedback functionality.</p>
 
+      <p>My hobbies are drawing, photography, reading books and I have made this website to show some of my photography of cars.  I take photographs of supercars and luxury cars like Ferraris, Lamborghinis and Aston Martin etc. I have recently started learning Javascript and it is a very interesting language.  I hope you enjoy this website!</p>
+    </section>
 
-<section id="three">
-  <h2>ABOUT ME</h2>
-  <p>Hello! My name is Viren and I study Computer Science. I am a third year computer science student and I enjoy it alot. For my final year project, I am making a Bed and Breakfast booking system where the user will be able to book some rooms and it will also have a feedback functionality.</p>
+    <!-- This has the four images which upon hovering text appears -->
+    <section id="four">
+      <div id="my-class">
+        <figure>
+          <img src="images/image2.jpg" alt="image2"/>
+          <figcaption>
+            <h4>Porsche</h4>
+          </figcaption>
+        </figure>
+	    <figure>
+          <img src="images/image3.jpg" alt="image3"/>
+          <figcaption>
+            <h4>Porsche</h4>
+          </figcaption>
+        </figure>
+	    <figure>
+          <img src="images/image4.jpg" alt="image4"/>
+          <figcaption>
+            <h4>BMW</h4>
+          </figcaption>
+        </figure>
+	    <figure>
+          <img src="images/image5.jpg" alt="image5"/>
+          <figcaption>
+            <h4>Lamborghini</h4>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
 
-  <p>My hobbies are drawing, photography, reading books and I have made this website to show some of my photography of cars.  I take photographs of supercars and luxury cars like Ferraris, Lamborghinis and Aston Martin etc. I have recently started learning Javascript and it is a very interesting language.  I hope you enjoy this website!</p>
-</section>
+    <!-- This is the footer which contains the Sitemap and the Map -->
+    <footer id="five">
+      <div id="cont1">
+        <p>Please get in touch!</p>
+      </div>
+      <div id="cont2">
+      <h3>Sitemap</h3>
+        <ul class="footlink">
+          <li>
+            <a href="#three">About</a>
+          </li>
+          <li>
+            <a href="#four">Gallery</a>
+          </li>
+          <li>
+            <a href="#five">Contact</a>
+          </li>
+          <li>
+            <a href="#two">Home</a>
+          </li>
+        </ul>
+      </div>
+      <div id="cont3">
+        <div id="map"></div>
+      </div>
+    </footer>
 
+    <!-- This is the javascript file which contains the code for the resizable menu -->
+    <script src="javascript/javascript.js"></script>
 
-<section id="four">
-  <div id="my-class">
-    <figure>
-      <img src="images/image2.jpg" alt="image2"/>
-      <figcaption>
-        <h4>Porsche</h4>
-      </figcaption>
-    </figure>
-	<figure>
-      <img src="images/image3.jpg" alt="image3"/>
-      <figcaption>
-        <h4>Porsche</h4>
-      </figcaption>
-    </figure>
-	<figure>
-      <img src="images/image4.jpg" alt="image4"/>
-      <figcaption>
-        <h4>BMW</h4>
-      </figcaption>
-    </figure>
-	<figure>
-      <img src="images/image5.jpg" alt="image5"/>
-      <figcaption>
-        <h4>Lamborghini</h4>
-      </figcaption>
-    </figure>
-  </div>
-</section>
-
-
-<footer id="five">
-  <div id="cont1">
-    <p>Please get in touch!</p>
-  </div>
-  <div id="cont2">
-  <h3>Sitemap</h3>
-    <ul class="footlink">
-        <li>
-          <a href="#three">About</a>
-        </li>
-        <li>
-          <a href="#four">Gallery</a>
-        </li>
-        <li>
-          <a href="#five">Contact</a>
-        </li>
-        <li>
-          <a href="#two">Home</a>
-        </li>
-    </ul>
-  </div>
-  <div id="cont3">
-    <div id="map"></div>
-  </div>
-</footer>
-
-
-<script src="javascript/javascript.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy7qTxlf2gaUdgp3kpMYR5egTi4KrIWGA&callback=initMap"></script>
-</body>
+    <!-- Import google maps api javascript and use initMap as a callback function. The API key is in the URL -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBy7qTxlf2gaUdgp3kpMYR5egTi4KrIWGA&callback=initMap"></script>
+  </body>
 </html>
