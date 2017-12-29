@@ -101,6 +101,8 @@ This is how the website would look on desktop/laptop
 
 - This is the link that I used for making the resizable menu: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 
+- This is the link to the Google API: https://developers.google.com/maps/
+
 
 
 
