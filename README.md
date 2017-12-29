@@ -47,11 +47,13 @@ This is a website which shows pictures of supercars and also includes some infor
 
 ### Usability
 
-- I observed the user and noticed that the website was fairly straighforward to use. The website had effective navigation and the content was easy to locate.
+- I observed the user and noticed that the website was fairly straighforward to use. The website had effective navigation and the content was easy to locate. All the links worked at all sizes as well.
 
 - The animated arrow was liked by alot of people and the the feedback was that the website was simple yet beautiful.
 
 - When clicking on the links, there is smooth scroll using the help of CSS and this was liked as well.
+
+- The sitemap links worked fine.
 
 
 ### User Interface
@@ -85,6 +87,17 @@ This is a website which shows pictures of supercars and also includes some infor
 - When I had the images of the 4 cars, I needed to decide how the pictures would be displayed on various screen resizes. Thus on a laptop or large screen the images would be displayed 2 by 2 and on a mobile it would be displayed in one column with 4 images.
 
 - Another problem that I had is that the background image was not resizing. However I changed the background-size and background-attachment properties and that was resolved.
+
+
+## PARC Principles
+
+- Proximity: The 4 images of the cars should be spaced in such a way that the particular items are similar.
+
+- Alignment: The images were all aligned and the text was evenly aligned as well. It needed to look good on all devices.
+
+- Repetition: Repetition has been used throughout the website in the use of fonts, colors and overall layout.
+
+- Contrast: The images, background color and the font color all contrast each other well. The text is easy to read. One such example is the home page. 
 
 
 ## Wireframe sketches
